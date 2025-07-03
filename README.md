@@ -1,14 +1,32 @@
-Here's a description for your GitHub repository, based on the HTML and CSS code you provided:
+# 🌐 Web Development Portfolio
 
-Web Development Portfolio
+Welcome to my web development portfolio!  
+This repository showcases some of the projects I’ve been working on while learning full-stack development. It highlights my progress with both front-end and back-end tools like **HTML**, **CSS**, **JavaScript**, **Python**, and **SQL**—from building clean, responsive UIs to writing simple server-side logic and working with data.
 
-This repository hosts a personal web development portfolio, showcasing a collection of projects and skills in front-end and back-end development. It highlights expertise in HTML, CSS, JavaScript, Python, and SQL, demonstrating the creation of intuitive user interfaces, robust server-side logic, and efficient data management.
+## 🚀 What's Inside
 
-The portfolio includes:
+- **🧠 My Expertise** – A breakdown of the core skills I’m developing in web development.
+- **🛠️ Technologies I Use** – Logos and names of the key languages, frameworks, and tools I work with.
+- **👤 About Me** – A quick intro about who I am and why I love creating for the web.
+- **📅 Week 1 Showcase** – Foundational HTML & CSS projects, including:
+  - Semantic structure
+  - HTML forms
+  - The CSS Box Model
+  - Flexbox
+  - CSS Grid
+- **📨 Contact Form** – A simple way to get in touch.
 
-A "My Expertise" section detailing core development skills.
-A "Technologies I Use" section featuring logos of key programming languages and tools.
-An "About Me" section with a brief introduction.
-A "Week 1 Showcase" demonstrating foundational HTML and CSS projects, including daily progress on topics like semantic structure, forms, the CSS Box Model, Flexbox, and CSS Grid.
-A contact form for inquiries.
-This project is built with a focus on responsive design and features a dynamic hero section and a dark mode option for enhanced user experience.
+## 🎯 Features
+
+- Fully responsive design
+- A dynamic hero section
+- Dark mode toggle for a better user experience
+
+Thanks for checking it out!
+
+---
+
+🔗 **Connect with me**  
+GitHub: [github.com/Laijee27](https://github.com/Laijee27)  
+LinkedIn: [Elijah Baptiste-Amadasun](https://www.linkedin.com/in/elijah-baptiste-amadasun-265a2b2bb)
+
