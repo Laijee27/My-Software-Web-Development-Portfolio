@@ -3,18 +3,15 @@
 Welcome to my web development portfolio!  
 This repository showcases some of the projects I’ve been working on while learning full-stack development. It highlights my progress with both front-end and back-end tools like **HTML**, **CSS**, **JavaScript**, **Python**, and **SQL**—from building clean, responsive UIs to writing simple server-side logic and working with data.
 
-## 🚀 What's Inside
+---
 
-- **🧠 My Expertise** – A breakdown of the core skills I’m developing in web development.
-- **🛠️ Technologies I Use** – Logos and names of the key languages, frameworks, and tools I work with.
-- **👤 About Me** – A quick intro about who I am and why I love creating for the web.
-- **📅 Week 1 Showcase** – Foundational HTML & CSS projects, including:
-  - Semantic structure
-  - HTML forms
-  - The CSS Box Model
-  - Flexbox
-  - CSS Grid
-- **📨 Contact Form** – A simple way to get in touch.
+### 🔧 Technologies Used:
+- HTML5, CSS3, JavaScript
+- Python (Week 3)
+- SQL (basic examples)
+- Git & GitHub
+
+---
 
 ## 🎯 Features
 
@@ -22,7 +19,24 @@ This repository showcases some of the projects I’ve been working on while lear
 - A dynamic hero section
 - Dark mode toggle for a better user experience
 
-Thanks for checking it out!
+---
+
+## 🌟 Highlights
+
+- Sidebar navigation for quick access
+- Responsive design using Flexbox & CSS Grid
+- Light/Dark mode support with `prefers-color-scheme`
+- Week-by-week learning progress
+- Form with semantic accessibility
+
+---
+
+### 📚 Weekly Showcase
+| Week | Focus | Projects |
+|------|-------|----------|
+| Week 1 | HTML & CSS | [`Week1/projects`](./Week1/projects) |
+| Week 2 | JavaScript Fundamentals | [`Week2/projects`](./Week2/projects) |
+| Week 3 | Python Basics | [`Week3/projects`](./Week3/projects) |
 
 ---
 
