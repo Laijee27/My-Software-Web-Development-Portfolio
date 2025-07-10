@@ -31,13 +31,7 @@ This repository showcases some of the projects I’ve been working on while lear
 
 ---
 
-### 📚 Weekly Showcase
-| Week | Focus | Projects |
-|------|-------|----------|
-| Week 1 | HTML & CSS | [`Week1/projects`](./Week1/projects) |
-| Week 2 | JavaScript Fundamentals | [`Week2/projects`](./Week2/projects) |
-| Week 3 | Python Basics | [`Week3/projects`](./Week3/projects) |
-
+### 🌐 Live Site 
 ---
 
 🔗 **Connect with me**  
