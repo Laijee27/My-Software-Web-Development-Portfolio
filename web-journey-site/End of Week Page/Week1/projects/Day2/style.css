@@ -1,0 +1,161 @@
+/* General Reset and Base Styles */
+/* A more standard reset for margin/padding, applies box-sizing to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif; /* Added Arial as a fallback */
+    line-height: 1.6;
+    background: url(beach-background-beautiful-beach-landscape-tropical-nature-scene-palm-trees-blue-sky-summer-holiday-vacation-concept-93725354.webp);
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover;      /* Scales the image to cover the entire container */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; /* Makes the background image fixed while content scrolls */
+    color: #333;
+    padding: 1rem; /* Overall padding for the body content */
+}
+
+/* Header Styles */
+header {
+    background-color: #e6b223; /* Warm gold/orange */
+    color: #fff;
+    padding: 1.5rem 0; /* Increased padding for better visual weight */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+header h1 {
+    margin-bottom: 0; /* Remove default margin-bottom to center text vertically if no other elements */
+    font-size: 2.5rem; /* Larger heading for prominence */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15); /* More pronounced text shadow */
+}
+
+/* Removed header h2 and nav styles as these elements are not present in the new HTML header */
+
+/* Main Content Section */
+main {
+    max-width: 800px; /* Constrain main content width */
+    margin: 2rem auto; /* Center main content horizontally */
+    padding: 1.5rem; /* Padding inside the main content area */
+    background: #ffffff; /* White background for the main content block */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Clearer shadow */
+    text-align: left; /* Default text alignment for content inside main */
+}
+
+/* Introduction Section specific styling within main */
+.intro-section {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px dashed #eee; /* A subtle separator */
+    text-align: center; /* Center text within this specific section */
+}
+
+.intro-section h2 {
+    font-size: 1.8rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.intro-section p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Increased gap between fieldsets */
+}
+
+fieldset {
+    border: 2px solid #ddd; /* Slightly darker border for clarity */
+    border-radius: 10px; /* Consistent border radius */
+    padding: 1.5rem; /* More padding inside fieldset */
+    margin-bottom: 1.5rem; /* Consistent margin below fieldset */
+    background-color: #fcfcfc; /* Very light background for fieldsets */
+}
+
+legend {
+    font-size: 1.3rem; /* Larger font for legend */
+    font-weight: bold;
+    color: #333;
+    padding: 0 0.5rem; /* Padding around legend text */
+    margin-bottom: 1rem; /* Space below legend */
+}
+
+/* Styling for individual form rows (label + input/control) */
+form div {
+    margin-bottom: 1rem; /* Space between each form row */
+}
+
+form label {
+    display: block; /* Makes labels appear on their own line */
+    margin-bottom: 0.4rem; /* Space between label and input */
+    font-weight: bold;
+    color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+select { /* Include select for consistent styling */
+    width: 100%; /* Full width for text/number/email/password inputs and selects */
+    padding: 0.8rem; /* More padding for easier clicking/tapping */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Specific styling for checkbox/radio labels to align them better */
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto; /* Override 100% width for checkboxes/radios */
+    margin-right: 0.5rem; /* Space between input and its label */
+    padding: 0; /* Remove padding from checkboxes/radios */
+}
+
+/* Ensure checkbox/radio labels are aligned with their input */
+form div p { /* Style for question text above checkboxes/radios */
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Button Styling */
+button[type="submit"] {
+    padding: 1rem 2rem; /* Larger padding for button */
+    background-color: #ad2300; /* Original button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    align-self: center; /* Center the button in the form */
+    margin-top: 1.5rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #7a1800; /* Darker red on hover */
+}
+
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 3rem; /* More space above the footer */
+    padding: 1.5rem;
+    background-color: #eef1f0; /* Soft light gray for footer */
+    color: #666;
+    font-size: 0.9rem;
+}
