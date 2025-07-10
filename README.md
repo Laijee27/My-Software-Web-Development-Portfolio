@@ -31,7 +31,7 @@ This repository showcases some of the projects I’ve been working on while lear
 
 ---
 
-### 🌐 Live Site (web-journey-site/End of Week Page/index.html/)
+### 🌐 Live Site | [`My Portfolio`](./index.html) |
 ---
 
 🔗 **Connect with me**  
