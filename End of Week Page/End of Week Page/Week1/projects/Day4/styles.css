@@ -1,0 +1,104 @@
+/* Applies a common style to all grid boxes */
+.grid-3x2 div,
+.grid-3x3 div {
+  background-color: lightblue;
+  border: 1px solid #333;
+  border-radius: 10px; /* rounded corners */
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* 3 Columns, 2 Rows */
+.grid-3x2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 10px; /* space between grid items */
+  margin-bottom: 40px;
+}
+
+/* 3 Columns, 3 Rows */
+.grid-3x3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* still 3 columns */
+  gap: 10px;
+}
+.thumbnail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive */
+  gap: 20px;
+  padding: 20px;
+}
+
+.thumb-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.thumb-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.thumb-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.thumb-card h3 {
+  margin: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "sidebar main main"
+    "footer footer footer";
+  grid-template-columns: 3fr 2fr; /* sidebar narrower */
+  grid-template-rows: 100px 200px 100px; /* fixed heights for rows */
+  gap: 10px;
+  height: 100vh;
+}
+
+header, aside, main, footer {
+  padding: 20px;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Apply each area using grid-area */
+.header {
+  grid-area: header;
+  background-color: #3b82f6;
+  text-align: center;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #fbbf24;
+  color: #1f2937;
+  text-align: left;
+}
+
+.main {
+  grid-area: main;
+  background-color: #6ee7b7;
+  color: #1f2937;
+  text-align: left;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #a78bfa;
+  text-align: center;
+}

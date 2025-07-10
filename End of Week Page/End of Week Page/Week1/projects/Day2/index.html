@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test! Random Holiday Preferences Questionnaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Plan Your Perfect Holiday!</h1>
+    </header>
+
+    <main>
+        <section class="intro-section">
+            <h2>Welcome!</h2>
+            <p>This is some test flavour text. Help us understand your ideal holiday experience by answering a few quick questions.</p>
+        </section>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Your Holiday Style</legend>
+
+                <div>
+                    <label for="preferredDestination">What's your dream holiday destination?</label>
+                    <input type="text" id="preferredDestination" name="preferredDestination" placeholder="e.g., Beach, Mountains, City" />
+                </div>
+
+                <div>
+                    <p>What kind of activities do you prefer on holiday?</p>
+                    <input type="checkbox" id="activityRelax" required="true" name="activities" value="relaxation">
+                    <label for="activityRelax">Relaxation (Spa, Beach)</label><br>
+
+                    <input type="checkbox" id="activityAdventure" name="activities" value="adventure">
+                    <label for="activityAdventure">Adventure (Hiking, Water Sports)</label><br>
+
+                    <input type="checkbox" id="activityCulture" name="activities" value="culture">
+                    <label for="activityCulture">Culture (Museums, Historical Sites)</label><br>
+
+                    <input type="checkbox" id="activityFood" name="activities" value="food">
+                    <label for="activityFood">Food & Drink Exploration</label>
+                </div>
+
+                <div>
+                    <label for="travelCompanions">Who do you usually travel with?</label>
+                    <select id="travelCompanions" name="travelCompanions">
+                        <option value="">--Please choose an option--</option>
+                        <option value="solo">Solo</option>
+                        <option value="partner">Partner</option>
+                        <option value="family">Family (with kids)</option>
+                        <option value="friends">Friends</option>
+                        <option value="group">Organized Group</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Holiday Preferences</legend>
+
+                <div>
+                    <p>What's your ideal holiday length?</p>
+                    <input type="radio" id="lengthShort" name="holidayLength" value="short" checked>
+                    <label for="lengthShort">1-3 Days (Short Break)</label><br>
+
+                    <input type="radio" id="lengthMedium" name="holidayLength" value="medium">
+                    <label for="lengthMedium">4-7 Days (One Week)</label><br>
+
+                    <input type="radio" id="lengthLong" name="holidayLength" value="long">
+                    <label for="lengthLong">8+ Days (Extended Trip)</label>
+                </div>
+
+                <div>
+                    <label for="budget">What's your approximate budget per person for a trip?</label>
+                    <input type="number" id="budget" name="budget" min="0" placeholder="e.g., 1000" />
+                </div>
+
+                <div>
+                    <label for="emailConsent">Email me holiday deals:</label>
+                    <input type="email" id="emailConsent" name="emailConsent" placeholder="your.email@example.com" />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+
+                <div>
+                    <label for="specialRequests">Any special requests or considerations?</label>
+                    <textarea id="specialRequests" name="specialRequests" rows="6" placeholder="e.g., dietary restrictions, accessibility needs"></textarea>
+                </div>
+
+            </fieldset>
+
+            <div>
+                <button type="submit">Submit My Preferences</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>© Elijah-Baptiste Amadasun. Survey Test.</p>
+    </footer>
+
+</body>
+</html>
